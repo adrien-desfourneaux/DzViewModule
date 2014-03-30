@@ -1,0 +1,47 @@
+{
+    "name": "dieze/dz-view-module",
+    "description": "Améliorations de la couche Vue du Zend Framework 2.",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "view",
+        "vue",
+        "viewmodel",
+        "Vue-Modèle",
+        "library",
+        "module"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/dieze/DzViewModule",
+    "authors": [
+        {
+            "name": "Desfourneaux Adrien (aka Dieze)",
+            "email": "dieze51@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "dieze51@gmail.com",
+        "issues": "https://github.com/dieze/DzViewModule/issues",
+        "wiki": "https://github.com/dieze/DzViewModule/wiki",
+        "source": "https://github.com/dieze/DzViewModule"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-eventmanager": "~2.1",
+        "zendframework/zend-modulemanager": "~2.1",
+        "zendframework/zend-mvc": "~2.1",
+        "zendframework/zend-servicemanager": "~2.1",
+        "zendframework/zend-stdlib": "~2.1",
+        "zendframework/zend-view": "~2.1"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "DzViewModule": "src/"
+        }
+    }
+}
